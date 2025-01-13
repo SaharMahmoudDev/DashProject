@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+<!--start page stteings-->
+<div class="section" id="settings">
+    <div class="sidebar">
+       <h2>elzero</h2>
+       <div class="links">
+          <a href="../index.html"><i class="far fa-chart-bar fa-fw"></i><span>dashbord</span></a>
+          <a href="setting.html"><i class="fa-solid fa-gear fa-fw  "></i><span>settings</span></a>
+          <a href="profile.html"><i class="far fa-user fa-fw  "></i><span>profil</span></a>
+          <a href="projects.html"><i class=" fa-solid fa-diagram-project  fa-fw "></i><span>projects</span></a>
+          <a href="courses.html"><i class=" fa-solid fa-graduation-cap fa-fw "></i><span>courses</span></a>
+          <a href="friends.html"><i class=" fa-regular fa-circle-user fa-fw "></i><span>friends</span></a>
+          <a href="files.html"><i class="fa-regular fa-file fa-fw"></i><span>files</span></a>
+          <a href="plans.html"><i class="fa-regular fa-credit-card fa-fw  "></i><span>plans</span></a>
+       </div>
+    </div>
+    <div class="content">
+       <!--start head-->
+       <div class="head d-flex ">
+          <form class="d-flex">
+             <input type="search" name="text" class="text" placeholder="type a keyword" />
+             <input type="reset" name="reset" value="&#10005" />
+          </form>
+          <div class="image d-flex">
+             <i class="fa-regular fa-bell fa-lg "></i>
+             <img src="  https://raw.githubusercontent.com/ElzeroWebSchool/HTML_And_CSS_Template_Four/main/imgs/avatar.png " alt="testing" />
+          </div>
+       </div>
+       <!--end dashboard-->
+       <!--start settings-->
+ 
+       <h1>settings</h1>
+       <div class="container">
+          <!--start site-->
+          <div class="site style-card">
+             <h2 class="special">site control</h2>
+             <p> Control The Website If There Is Maintenance </p>
+             <div class="choose d-flex">
+                <div>
+                   <h3>website control</h3>
+                   <p> Open/Close Website And Type The Reason </p>
+                </div>
+                <div class="radi">
+                   <input type="checkbox" name="check" value="checked" checked="checked" />
+                   <div class="radis"></div>
+                </div>
+             </div>
+             <textarea placeholder="close message content"></textarea>
+          </div>
+          <!--end site-->
+          <!--start general info-->
+          <div class="info style-card">
+             <h2 class="special">general info</h2>
+             <p>General Information About Your Account </p>
+             <form>
+                <lable>first name
+                   <input type="text" name="text-first" placeholder="first name" />
+                   </label>
+                   <lable>last name
+                      <input type="text" name="text-last" placeholder="last name" />
+                      </label>
+                      <div class="d-flex">
+                         <lable>email
+                            <input type="email" name="mail" value="o@nn.sa" disabled />
+                         </lable>
+                         <a href="#">change</a>
+                      </div>
+             </form>
+          </div>
+          <!--end general info-->
+          <!--start security infi-->
+          <div class="security style-card">
+             <h2 class="special">security info</h2>
+             <p> Security Information About Your Account</p>
+             <div class="pass d-flex">
+                <div class="factor1">
+                   <h4>password</h4>
+                   <span>last change on 25/10/021 </span>
+                </div>
+                <a href="#" class="button">change</a>
+             </div>
+             <div class="factor d-flex">
+                <div class="factor1">
+                   <h4>two-factor authentication</h4>
+                   <span>enable/disable the feature </span>
+                </div>
+                <div class="radi">
+                   <input type="checkbox" name="check" value="checked" checked="checked" />
+                   <div class="radis"></div>
+                </div>
+             </div>
+             <div class="device d-flex">
+                <div class="factor1">
+                   <h4>devices</h4>
+                   <span> Check The Login Devices List</span>
+                </div>
+                <a href="#" class="button"> devices</a>
+             </div>
+          </div>
+          <!--end security-->
+          <!--trt social-->
+          <div class="social style-card">
+             <h3 class="special">social info</h3>
+             <p> Social Media Information </p>
+             <form class="form">
+                <label class="d-flex">
+                   <i class="fab fa-twitter twitter"></i>
+                   <input type="text" name="text" placeholder="twitter username" />
+                </label>
+                <label class="d-flex">
+                   <i class="fab fa-facebook facebook"></i>
+                   <input type="text" name="text" placeholder="facebook username" />
+                </label>
+                <label class="d-flex">
+                   <i class="fab fa-linkedin linkedin"></i>
+                   <input type="text" name="text" placeholder="linkedin username" />
+                </label>
+                <label class="d-flex">
+                   <i class="fab fa-youtube youtube"></i>
+                   <input type="text" name="text" placeholder="youtube username" />
+                </label>
+             </form>
+          </div>
+          <!--end social-->
+          <!--start widgets-->
+          <div class="widgets style-card">
+             <h2 class="special">widgets control</h2>
+             <p>show/hide widgets</p>
+             <div>
+                <label for="chek">quick draft</label>
+                <input type="checkbox" name="draft" id="chek" checked />
+             </div>
+             <div>
+                <label for="chek1">yearly targets</label>
+                <input type="checkbox" name="draft" id="chek1" checked />
+             </div>
+             <div>
+                <label for="chek2">tickets statistics</label>
+                <input type="checkbox" name="draft" id="chek2" checked />
+             </div>
+             <div>
+                <label for="chek3">latest news</label>
+                <input type="checkbox" name="draft" id="chek3" checked />
+             </div>
+             <div>
+                <label for="chek4">latest tasks</label>
+                <input type="checkbox" name="draft" id="chek4" />
+             </div>
+             <div>
+                <label for="chek5">top search items</label>
+                <div class="shape"></div>
+                <input type="checkbox" name="draft" id="chek5" checked />
+             </div>
+          </div>
+          <!--end widgets-->
+          <!--start mackup-->
+          <div class="mackup style-card">
+             <h2 class="special">mackup manager</h2>
+             <p> Control Backup Time And Location</p>
+             <div class="marck">
+                <input type="radio" name="rad" id="rada" checked />
+                <label for="rada">daily</label>
+             </div>
+ 
+             <div class="marck">
+                <input type="radio" name="rad" id="rada1" />
+                <label for="rada1">weekly</label>
+             </div>
+ 
+             <div class="marck">
+                <input type="radio" name="rad" id="rada2" />
+                <label for="rada2">monthly</label>
+             </div>
+             <div class="box">
+                <div class="cont-box">
+                   <i class="fas fa-twitter"></i>
+                   <span>megaman</span>
+                </div>
+                <div class="cont-box">
+                   <i class="fas fa-twitter"></i>
+                   <span>zero</span>
+                </div>
+                <div class="cont-box">
+                   <i class="fas fa-twitter"></i>
+                   <span>sigma</span>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <!--end page settings-->
+</body>
+</html>
