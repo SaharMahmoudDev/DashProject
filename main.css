@@ -666,7 +666,7 @@ body {
   background: var(--orange-color,#f59e0b);
 }
 .content .targets .info .content .orange span::before {
-  background: var(--orange-colorn#f59e0b);
+  background: var(--orange-colorn,#f59e0b);
   border-color: var(--orange-color,#f59e0b);
 }
 
