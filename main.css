@@ -26,6 +26,7 @@ input[type="checkbox"],
 input[type="radio"],
 a {
   cursor: pointer;
+  user-select: none;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -533,7 +534,6 @@ body {
   width: 100%;
   max-width: 100%;
   padding: 10px;
-  color: var(--text-color, #888);
   background-color: var(--bg-color, #eee);
   font-size: 13px;
   text-transform: capitalize;
@@ -545,6 +545,9 @@ body {
 }
 .content .draft form textarea {
   height: 200px;
+}
+.content .draft form input::placeholder, .content .draft form textarea::placeholder{
+  color: var(--text-color, #888);
 }
 .content .draft [type="submit"] {
   width: fit-content;
@@ -1196,6 +1199,7 @@ body {
 }
 .content .projects table {
   width: 100%;
+  min-width: 1000px;
   text-transform: capitalize;
   white-space: nowrap;
   border: 1px solid #eee;
