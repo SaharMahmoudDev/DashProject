@@ -21,7 +21,7 @@ This project is ideal as a base for admin panels, analytics dashboards, or contr
 - Easy to customize for your own admin systems
 
 ## About the Developer
-Created with by Nova Quill
+Created with by Sahar Mahmoud
 
 More templates and UI projects available on my GitHub
 
