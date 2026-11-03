@@ -1,10 +1,9 @@
-# Admin Dashboard Template – Template Four 
-
+# Dashboard UI
 A clean and responsive **Admin Dashboard UI** built using **pure HTML5 and CSS**, without any frameworks.  
 This project is ideal as a base for admin panels, analytics dashboards, or control panels in web applications.
 
 ## Live Demo
- [View Live on Netlify](https://dashproject.netlify.app)  
+ [View Live Demo](https://dash-project-site.pages.dev/)  
 
 ## Technologies Used
 - HTML5
