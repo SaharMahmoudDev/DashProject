@@ -2,7 +2,7 @@
 A clean and responsive **Admin Dashboard UI** built using **pure HTML5 and CSS**, without any frameworks.  
 This project is ideal as a base for admin panels, analytics dashboards, or control panels in web applications.
 
-![Dashboard UI preview](https://raw.githubusercontent.com/SaharMahmoudDev/SaharMahmoudDev.github.io/main/images/dashboard-light.jpg)
+![Dashboard UI preview](https://raw.githubusercontent.com/SaharMahmoudDev/SaharMahmoudDev.github.io/main/images/dashboard-devices.webp)
 
 ## Live Demo
  [View Live Demo](https://dash-project-site.pages.dev/)  
